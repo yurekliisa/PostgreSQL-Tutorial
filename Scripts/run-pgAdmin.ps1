@@ -1,0 +1,1 @@
+docker-compose -f .\composes\pgAdmin-compose.yml up -d

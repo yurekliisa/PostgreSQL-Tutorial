@@ -1,0 +1,31 @@
+version: '3.6'
+services: 
+  postgresDb:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: "yurekliisa"
+      POSTGRES_PASSWORD: "123qwe"
+      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_DB: efDB
+    volumes:
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+    networks:
+      - db_network
+networks: 
+  db_network:
+    driver: bridge
+
+#Yukardaki PgAdmin bilgileri
+#pgAdmin Login => yurekliisa
+#pgAdmin Password => 123qwe
+
+#Yukarda postgreSql bilgileri
+#Connect Server General Name => Kendin tanımla fark etmiyi
+#Connect Server Connection Host => postgresDb => Yukarda servisde tanımladıgımız isim
+#Connect Server General User Name => yurekliisa
+#Connect Server General User Password => 123qwe
+
+

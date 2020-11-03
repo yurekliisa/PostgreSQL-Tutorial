@@ -1,0 +1,1 @@
+docker-compose -f .\composes\postgres-compose.yml up -d

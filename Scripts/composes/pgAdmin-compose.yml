@@ -1,0 +1,18 @@
+version: '3.6'
+services: 
+  pgAdmin:
+    image: dpage/pgadmin4
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      PGADMIN_LISTEN_ADDRESS: 0.0.0.0
+      PGADMIN_LISTEN_PORT: 8080
+      PGADMIN_DEFAULT_EMAIL: "yurekliisa@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "123qwe"
+    networks:
+      - db_network
+    tty: true
+networks: 
+  db_network:
+    driver: bridge

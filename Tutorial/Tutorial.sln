@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper-ORM", "Dapper-ORM\Dapper-ORM.csproj", "{3A96F576-7461-4FB2-9F37-02AD906EC542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ORM", "EF-ORM\EF-ORM.csproj", "{DEA41D00-87A6-4386-8CE9-D44A6000041A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A96F576-7461-4FB2-9F37-02AD906EC542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A96F576-7461-4FB2-9F37-02AD906EC542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A96F576-7461-4FB2-9F37-02AD906EC542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A96F576-7461-4FB2-9F37-02AD906EC542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA41D00-87A6-4386-8CE9-D44A6000041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA41D00-87A6-4386-8CE9-D44A6000041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA41D00-87A6-4386-8CE9-D44A6000041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA41D00-87A6-4386-8CE9-D44A6000041A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C82F09A-39D1-4794-844F-C159D67D4400}
+	EndGlobalSection
+EndGlobal
